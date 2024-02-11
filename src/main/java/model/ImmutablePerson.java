@@ -2,7 +2,7 @@ package model;
 
 import java.util.Objects;
 
-public class ImmutablePerson {
+public final class ImmutablePerson {
     private final String name;
     private final String surname;
     private final int age;
