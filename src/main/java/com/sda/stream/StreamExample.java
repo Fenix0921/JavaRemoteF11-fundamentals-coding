@@ -31,6 +31,24 @@ public class StreamExample {
                 })
                 .toList();
 
+        // get names of only adults
+        var justNames = persons.stream()
+                .filter(person -> {
+                    System.out.println("\nChecking if person is adult..." + person);
+                    return person.getAge() >= 18;
+                })
+                .map(person -> {
+                    person.setName(person.getName() + 1);
+                    return person;
+                })
+                .map(person -> {
+                    System.out.println("Mapping person to name: " + person);
+                    return person.getName();
+                })
+                .toList();
+
+        System.out.println("Adults are : " + justNames);
+
     }
 }
 
