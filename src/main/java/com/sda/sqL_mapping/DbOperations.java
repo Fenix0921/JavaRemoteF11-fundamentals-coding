@@ -1,5 +1,7 @@
 package com.sda.sqL_mapping;
 
+import com.sda.sqL_mapping.entity.PersonEntity;
+
 import java.util.Collections;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package com.sda.sqL_mapping;
 
+import com.sda.sqL_mapping.entity.AddressEntity;
+
 public class BuilderExample {
 
     public static void main(String[] args) {

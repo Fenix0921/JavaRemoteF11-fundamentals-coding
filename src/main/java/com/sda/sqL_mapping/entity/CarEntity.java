@@ -1,4 +1,4 @@
-package com.sda.sqL_mapping;
+package com.sda.sqL_mapping.entity;
 
 
 import lombok.AllArgsConstructor;
